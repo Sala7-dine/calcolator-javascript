@@ -1,0 +1,73 @@
+:root{
+    --red:rgb(129, 0, 0) ;
+    --dark:black;
+    --white:white;
+    --whitemode:rgb(207, 207, 207);
+}
+
+body{
+    background-color: var(--dark);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 60px auto;
+    background-color: var(--red);
+}
+
+.cls-ZoneText{
+    width: 350px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    border: none;
+    font-size: 3.5rem;
+    outline: none;
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+button{
+    width: 70px;
+    background-color: transparent;
+    border: none;
+    padding: 10px 0;
+    border-radius: 180px;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 8px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.507);
+}
+button:hover{
+    background-color: var(--whitemode);
+    color: var(--dark);
+}
+
+.cls-centent , .cls-egal{
+    display: flex;
+    justify-content: space-between;
+    width: 348px;
+}
+
+.cls-number{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 348px;
+}
+
+.cls-del , .cls-zero{
+    width: 160px;
+}
+
+.cls-dark , .cls-light{
+    border: 1px solid yellow;
+}
+
